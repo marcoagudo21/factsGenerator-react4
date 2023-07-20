@@ -5,15 +5,32 @@ body{
 }
 main{
     display: flex;
-    place-content: center;
+    flex-direction: column;
+    
+    place-items: center;
+    gap: 15px;
 }
 
 section{
 display: flex;
 place-items: center;
 gap: 5rem;
+height: 400px;
 }
 
 section img {
-    max-width: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+button{
+    background-color: rgb(0, 162, 255);
+    border: 1px solid rgb(177, 176, 176);
+    padding: 10px;
+    width: 450px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
